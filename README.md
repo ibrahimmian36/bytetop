@@ -6,10 +6,9 @@ TLS means `tcpdump` can't read the bytes. But the kernel still knows **who** is 
 
 It's built on [**yeet**](https://yeet.cx), a runtime that makes a kernel-side BPF program, a per-tick render loop, and a JS state model feel like one program.
 
-<!-- To record the demo GIF, run `vhs assets/bytetop.tape` on a Linux box
-     with yeet installed, then add:
-     ![bytetop](assets/bytetop.gif)
-     here. -->
+<p align="center">
+  <img src="assets/bytetop.gif" alt="bytetop demo" width="820">
+</p>
 
 ---
 
